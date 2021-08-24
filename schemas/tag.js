@@ -17,7 +17,7 @@ export default {
 			options: { source: 'title' },
 		},
 		{
-			title: 'Icon (e.g. /static/recipes/chicken.png)',
+			title: 'Icon (e.g. chicken.png)',
 			description:
 				"Use icons: baking.png, breakfast.png, chicken.png, dessert.png, drinks.png, healthy.png, hotspot.png, maincourse.png, noodle.png, pasta.png, popcorn.png, quickeasy.png, salad.png, sauce.png, snack.png, vegetable.png ",
 			name: 'icon',
