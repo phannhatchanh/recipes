@@ -21,11 +21,11 @@ export default createSchema({
 	types: schemaTypes.concat([
 		/* Your types here! */
 		homepage,
-		about,
 		meal,
 		recipe,
 		section,
 		category,
 		tag,
+		about,
 	]),
 })
