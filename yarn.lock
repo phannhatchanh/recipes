@@ -1157,7 +1157,7 @@
   resolved "https://registry.yarnpkg.com/@sanity/asset-utils/-/asset-utils-1.3.0.tgz#6460cd993a2c24368a6308028f3bc57df91f131e"
   integrity sha512-uyIOtGA4Duf+68I3BSbYHY5P+WGftn3QtNJD2Pn7h9WPGYsSrWViIPebE9yRN8N0NHhYj+hDQXaMpVdjG7r+zA==
 
-"@sanity/base@2.35.7", "@sanity/base@^2.35.7":
+"@sanity/base@2.35.7", "@sanity/base@^2.17.1":
   version "2.35.7"
   resolved "https://registry.yarnpkg.com/@sanity/base/-/base-2.35.7.tgz#f0f411b95a31ec93b2523d33e3d39f8ed1bcd388"
   integrity sha512-MNEeOwh+TxlSyQveXIVs4DItil3V4lEFukQ6TUDNk4KFcSeY3KVLBsvPiOtjexkt8pehgz6Z5Hls9kS8AUCe5g==
@@ -1243,7 +1243,7 @@
     get-random-values-esm "^1.0.0"
     lodash "^4.17.21"
 
-"@sanity/cli@^2.36.0":
+"@sanity/cli@^2.17.1":
   version "2.36.0"
   resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-2.36.0.tgz#3cbbedd69ab863b40299ab2d186e743aa0e9b1e7"
   integrity sha512-2U67GANzFVNwTXT+SzMFqamGf8yr+jIW3uIlcjv3b5/04JkmD7oM5YptjsIRIDqqcf/fbxhdjMOuPlCqAE88jA==
@@ -1269,7 +1269,7 @@
   resolved "https://registry.npmjs.org/@sanity/components/-/components-2.14.0.tgz"
   integrity sha512-D8t7l+exvw1cg80m8yDZDRboAI6L827FeCacGjTOdElvgrR2shtsbepYui7ODfRgx9ynAceNDsQ1VSNnUgIHug==
 
-"@sanity/core@^2.35.7":
+"@sanity/core@^2.17.1":
   version "2.35.7"
   resolved "https://registry.yarnpkg.com/@sanity/core/-/core-2.35.7.tgz#a28ad9dc387afb46c3b1811d6901d8290d5619bd"
   integrity sha512-odHSN87ILsgX+Kbhooi1Trh4vF6MQMtFO7ldnjlnCtvcv3DdPeTuMGif7UBM69zsEdCfbrHVCj+Ktguqk6cdfQ==
@@ -1350,7 +1350,7 @@
     "@sanity/generate-help-url" "^3.0.0"
     lodash "^4.17.15"
 
-"@sanity/default-layout@^2.35.7":
+"@sanity/default-layout@^2.17.1":
   version "2.35.7"
   resolved "https://registry.yarnpkg.com/@sanity/default-layout/-/default-layout-2.35.7.tgz#711d95e464654e776bb22770edac441cc72a6f16"
   integrity sha512-LpHc7+qqxSCimzFTfw5t1t5srQP+frv/jhpXkn1ncLiUgV5CD70Snh9To4Hd/7x5DtqFx9bt/k7Yj0Ax8TutGw==
@@ -1374,7 +1374,7 @@
     react-virtual "^2.10.4"
     rxjs "^6.5.3"
 
-"@sanity/default-login@^2.35.7":
+"@sanity/default-login@^2.17.1":
   version "2.35.7"
   resolved "https://registry.yarnpkg.com/@sanity/default-login/-/default-login-2.35.7.tgz#067961545f4e06521d05cbc82a80c66e16be7be2"
   integrity sha512-Lx3SiD0lNTtUj5gnGYEyXbX425Hr2w+4mcL7XC56otJDpvw0x/n9SY6gjxOEiHKiqoFtxHYPYfP1ftTsugaYKA==
@@ -1387,7 +1387,7 @@
     prop-types "^15.6.0"
     rxjs "^6.5.3"
 
-"@sanity/desk-tool@^2.35.7":
+"@sanity/desk-tool@^2.17.1":
   version "2.35.7"
   resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.35.7.tgz#c0103037997fc9d4333362e89241b4a94d665d72"
   integrity sha512-4pbDBlFmhVKjaDutEjdfUYxSoyiBm2rVz5x2oChzpemfv+qUf1UTx5jQT8BrMeb/kDSzESAxscowW3paktLUFg==
@@ -1837,7 +1837,7 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@^2.35.7":
+"@sanity/vision@^2.15.0":
   version "2.35.7"
   resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-2.35.7.tgz#7c9be60c30908cd71737cfe3ce0b5baee612d5ac"
   integrity sha512-pAbuVcXbx4kyITd6oSr7iuESJ4J04Zi8iHC5r+ZKGKt20ettZWY8Qcxlv8C4gxrETIH7TjKoYr9fnthIZ0/7jw==
@@ -8029,14 +8029,13 @@ react-copy-to-clipboard@^5.0.4:
     copy-to-clipboard "^3.3.1"
     prop-types "^15.8.1"
 
-react-dom@^17.0:
-  version "17.0.2"
-  resolved "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
-  integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
+react-dom@^18.0.0:
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
+  integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
   dependencies:
     loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    scheduler "^0.20.2"
+    scheduler "^0.23.0"
 
 react-fast-compare@^3.0.1, react-fast-compare@^3.2.0:
   version "3.2.1"
@@ -8198,13 +8197,12 @@ react-virtual@^2.10.4:
   dependencies:
     "@reach/observe-rect" "^1.1.0"
 
-react@^17.0:
-  version "17.0.2"
-  resolved "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
-  integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
+react@^18.0.0:
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
+  integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
   dependencies:
     loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 read-cache@^1.0.0:
   version "1.0.0"
@@ -8657,13 +8655,12 @@ scheduler@^0.19.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-scheduler@^0.20.2:
-  version "0.20.2"
-  resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz"
-  integrity sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==
+scheduler@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.23.0.tgz#ba8041afc3d30eb206a487b6b384002e4e61fdfe"
+  integrity sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==
   dependencies:
     loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 schema-utils@^0.3.0:
   version "0.3.0"
